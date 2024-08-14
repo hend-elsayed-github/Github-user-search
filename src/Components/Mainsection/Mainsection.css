@@ -232,6 +232,42 @@
 
 }
 
+@media screen and (max-width: 950px){
+    .LIGHTmainsectiondiv{
+        width: 90%;
+        height: 70%;
+    }
+    .DARKmainsectiondiv{
+        width: 90%;
+        height: 70%;
+    }
+
+    #extradiv{
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+        width: unset;
+    }
+
+    #lowerinfodiv{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 0px;
+        row-gap: 20px;
+    }
+
+    #infodiv{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        column-gap: 10%;
+    }
+}
+
 @media screen and (max-width:450px){
     .LIGHTmainsectiondiv{
         width: 98%;
