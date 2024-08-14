@@ -19,7 +19,7 @@ function Togglebtn(){
         
         
     return(
-        <button id='togglebtn'>
+        <button className={chicked+'togglebtn'}>
             <label className={chicked+"color"}>{chicked}</label>
             {chicked=="DARK"? <img src={moonicon} onClick={Handleonclick}/>:
             <img src={sunicon} onClick={Handleonclick}/>}

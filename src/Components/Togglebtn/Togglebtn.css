@@ -8,9 +8,22 @@
     src: url(../../assets/Fonts/Space_Mono/SpaceMono-Bold.ttf);
 }
 
-#togglebtn{
+.DARKtogglebtn{
     border: none;
     background-color: #f6f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    font-family: SpaceMono-Bold;
+    font-size: 13px;
+    color: #697C9A;
+    cursor: pointer;
+}
+
+.LIGHTtogglebtn{
+    border: none;
+    background-color: #141D2F;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,4 +40,5 @@
 
 .LIGHTcolor{
     color: white;
+    background-color: #1E2A47;
 }

@@ -10,7 +10,7 @@ function App() {
       const [Theme, setTheme] =useState("LIGHT")
   return (
     <Mytheme.Provider value={{Theme,setTheme}}>
-    <div className="maindiv">
+    <div className={Theme+"maindiv"}>
       <Firstsection></Firstsection>
       <Searchsection></Searchsection>
       <Mainsection></Mainsection>

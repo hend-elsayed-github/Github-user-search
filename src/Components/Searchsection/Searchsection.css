@@ -28,7 +28,7 @@
 }
 
 .DARKsearchsectiondiv{
-    background-color: #4A6A9B;
+    background-color: #1E2A47;
     width: 40%;
     height: 10%;
     display: flex;
@@ -41,9 +41,6 @@
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
--webkit-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
--moz-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
 }
 
 
@@ -60,7 +57,7 @@
     color: white;
     border: none;
     width:300px;
-    background-color:#4A6A9B;
+    background-color:#1E2A47;
 }
 
 .LIGHTsearchtopic{
@@ -95,7 +92,7 @@
     }
     
     .DARKsearchsectiondiv{
-        background-color: #4A6A9B;
+        background-color: #1E2A47;
         width: 98%;
        
     }
@@ -106,7 +103,7 @@
         color: white;
         border: none;
         width:150px;
-        background-color:#4A6A9B;
+        background-color:#1E2A47;
     }
     
     .LIGHTsearchtopic{

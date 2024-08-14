@@ -30,8 +30,8 @@
 -moz-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
 }
 
-.Darkmainsectiondiv{
-    background-color: #4A6A9B;
+.DARKmainsectiondiv{
+    background-color: #1E2A47;
     width: 40%;
     height: 55%;
     display: flex;
@@ -45,9 +45,7 @@
     -moz-border-radius: 15px;
     -ms-border-radius: 15px;
     -o-border-radius: 15px;
-    box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
--webkit-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
--moz-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
+   
 }
 
 
@@ -76,7 +74,24 @@
     
 }
 
-#numbersinfo{
+.DARKnumbersinfo{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 15%;
+    background-color: #141D2F;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 25px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.LIGHTnumbersinfo{
     width: 100%;
     height: 60%;
     display: flex;
@@ -92,6 +107,8 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
 }
+
+
 
 .commondiv{
     display: flex;
@@ -129,10 +146,17 @@
     column-gap: 8px;
 }
 
-#name{
+.LIGHTname{
     margin: 0;
     font-family: SpaceMono-Bold;
     color: #2B3442;
+    font-size: 26px;
+}
+
+.DARKname{
+    margin: 0;
+    font-family: SpaceMono-Bold;
+    color: white;
     font-size: 26px;
 }
 
@@ -149,27 +173,53 @@
     font-size: 16px;
 }
 
-#bio{
+.DARKbio{
+    color: white;
+    font-family: SpaceMono-Regular;
+    font-size: 15px;
+}
+
+.LIGHTbio{
     color: #4B6A9B;
     font-family: SpaceMono-Regular;
     font-size: 15px;
 }
 
-.infotype{
+.LIGHTinfotype{
     color: #4B6A9B;
     font-family: SpaceMono-Regular;
     font-size: 13px;
 }
 
-.infovalue{
+.DARKinfotype{
+    color: white;
+    font-family: SpaceMono-Regular;
+    font-size: 13px;
+}
+
+.LIGHTinfovalue{
     color: #2B3442;
     font-size: 22px;
     font-family: SpaceMono-Bold;
 
 }
 
-.linkname{
+.DARKinfovalue{
+    color: white;
+    font-size: 22px;
+    font-family: SpaceMono-Bold;
+
+}
+
+.LIGHTlinkname{
     color: #4B6A9B;
+    font-size: 15px;
+    font-family: SpaceMono-Regular;
+    text-decoration: none;
+}
+
+.DARKlinkname{
+    color: white;
     font-size: 15px;
     font-family: SpaceMono-Regular;
     text-decoration: none;
@@ -177,11 +227,11 @@
 
 @media screen and (max-width:450px){
     .LIGHTmainsectiondiv{
-        width: 100%;
+        width: 98%;
         height: 99%;
     }
     .DARKmainsectiondiv{
-        width: 100%;
+        width: 98%;
         height: 99%;
     }
 
@@ -224,5 +274,53 @@
         box-sizing: border-box;
         padding: 0;
     }
+
+    .LIGHTlinkname{
+        font-size: 13px;
+    }
+
+    .DARKlinkname{
+        font-size: 13px;
+    }
+
+    .LIGHTinfotype{
+        font-size: 11px;
+    }
+    .DARKinfotype{
+        font-size: 11px;
+    }
     
+    .LIGHTinfovalue{
+        font-size: 16px;
+    
+    }
+    .DARKinfovalue{
+        font-size: 16px;
+    
+    }
+
+    .DARKname{
+        font-size: 16px;
+    }
+
+    .LIGHTname{
+        font-size: 16px;
+    }
+
+    
+    #date{
+        font-size: 13px;
+    }
+
+    #belowname{
+        font-size: 13px;
+    }
+
+    .DARKbio{
+        font-size: 13px;
+    }
+
+    .LIGHTbio{
+        font-size: 13px;
+    }
 }
