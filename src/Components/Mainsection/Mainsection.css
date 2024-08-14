@@ -225,6 +225,13 @@
     text-decoration: none;
 }
 
+#twitter{
+    color: #4B6A9B;
+    font-size: 15px;
+    font-family: SpaceMono-Regular;
+
+}
+
 @media screen and (max-width:450px){
     .LIGHTmainsectiondiv{
         width: 98%;
@@ -240,7 +247,7 @@
         align-items: flex-start;
         flex-direction: column;
         justify-content: space-between;
-        width: 60%;
+        width: unset;
         
     
     }
@@ -259,9 +266,9 @@
     #infodiv{
         display: flex;
         align-items: flex-start;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 100%;
-        row-gap: 20px;
+        column-gap: 10%;
     }
 
     #linksdiv{
