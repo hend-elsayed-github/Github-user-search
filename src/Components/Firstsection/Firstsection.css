@@ -1,0 +1,36 @@
+@font-face {
+    font-family: SpaceMono-Regular;
+    src: url(../../assets/Fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono-Bold;
+    src: url(../../assets/Fonts/Space_Mono/SpaceMono-Bold.ttf);
+}
+
+#firestsectiondiv{
+    width: 40%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.LIGHTlogoname{
+    font-size: 26px;
+    font-family: SpaceMono-Bold;
+    color: #222731;
+}
+
+.DARKlogoname{
+    font-size: 26px;
+    font-family: SpaceMono-Bold;
+    color: white;
+}
+
+@media screen and (max-width:450px){
+    #firestsectiondiv{
+        width: 100%;
+    
+    }
+}

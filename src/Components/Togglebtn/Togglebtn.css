@@ -1,0 +1,30 @@
+@font-face {
+    font-family: SpaceMono-Regular;
+    src: url(../../assets/Fonts/Space_Mono/SpaceMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: SpaceMono-Bold;
+    src: url(../../assets/Fonts/Space_Mono/SpaceMono-Bold.ttf);
+}
+
+#togglebtn{
+    border: none;
+    background-color: #f6f8ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+    font-family: SpaceMono-Bold;
+    font-size: 13px;
+    color: #697C9A;
+    cursor: pointer;
+}
+
+.DARKcolor{
+    color: #697C9A;
+}
+
+.LIGHTcolor{
+    color: white;
+}
