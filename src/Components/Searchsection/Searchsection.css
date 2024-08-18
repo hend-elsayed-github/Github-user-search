@@ -10,7 +10,7 @@
 
 .LIGHTsearchsectiondiv{
     background-color: white;
-    width: 40%;
+    width: 50%;
     height: 10%;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
 
 .DARKsearchsectiondiv{
     background-color: #1E2A47;
-    width: 40%;
+    width: 50%;
     height: 10%;
     display: flex;
     align-items: center;
@@ -85,6 +85,10 @@
     cursor: pointer;
 }
 
+#searchbtn:hover{
+    background-color: #5b99df;
+}
+
 @media screen and (max-width:950px) {
     .LIGHTsearchsectiondiv{
         width: 90%;
@@ -94,15 +98,21 @@
         width: 90%;
        
     }
+
+    #searchbtn{
+        padding: 10px;
+        font-size: 11px;
+        width: 90px;
+    }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:480px){
     .LIGHTsearchsectiondiv{
-        width: 98%;
+        width: 96%;
     }
     
     .DARKsearchsectiondiv{
-        width: 98%;
+        width: 96%;
        
     }
 

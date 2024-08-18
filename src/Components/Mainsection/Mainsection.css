@@ -12,8 +12,8 @@
 
 .LIGHTmainsectiondiv{
     background-color:white;
-    width: 40%;
-    height: 55%;
+    width: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -32,8 +32,8 @@
 
 .DARKmainsectiondiv{
     background-color: #1E2A47;
-    width: 40%;
-    height: 55%;
+    width: 50%;
+    height: 60%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -61,7 +61,7 @@
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
-    width: 70%;
+    width: 78%;
 
 }
 
@@ -118,14 +118,12 @@
 }
 
 #lowerinfodiv{
-    width: 70%;
+    width: 78%;
     display: flex;
     flex-direction: column;
-    margin-left: 30%;
+    margin-left: 22%;
     margin-top: -50px;
     row-gap: 20px;
-    
-    
 }
 
 #linksdiv{
@@ -134,7 +132,7 @@
     height: 40%;
     grid-template-columns: auto auto ;
     row-gap: 20px;
-    column-gap: 30px;
+    column-gap: 5px;
     box-sizing: border-box;
     padding: 20px 0 20px 0;
 }
@@ -225,11 +223,21 @@
     text-decoration: none;
 }
 
-#twitter{
+.twitter{
     color: #4B6A9B;
     font-size: 15px;
     font-family: SpaceMono-Regular;
+}
 
+#avatar{
+    width: 117px;
+    height: 117px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: none;
 }
 
 @media screen and (max-width: 950px){
@@ -268,14 +276,16 @@
     }
 }
 
-@media screen and (max-width:450px){
+@media screen and (max-width:480px){
     .LIGHTmainsectiondiv{
-        width: 98%;
-        height: 99%;
+        width: 96%;
+        /* height: 99%; */
+        height: auto;
     }
     .DARKmainsectiondiv{
-        width: 98%;
-        height: 99%;
+        width: 96%;
+        /* height: 99%; */
+        height: auto;
     }
 
     #extradiv{

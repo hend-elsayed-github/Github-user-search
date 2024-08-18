@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 20px;
+   
 }
 
 .DARKmaindiv{
@@ -18,6 +19,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 20px;
+    padding-bottom: 10px;
 }
 
 .LIGHTmaindiv{
@@ -28,4 +30,79 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 20px;}
+    row-gap: 20px;
+    padding-bottom: 10px;
+}
+
+.LIGHTNODATA{
+    background-color:white;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
+-webkit-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
+-moz-box-shadow: 5px 12px 6px 0px rgba(210,193,193,0.46);
+}
+
+.DARKNODATA{
+    background-color: #1E2A47;
+    width: 50%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+
+}
+
+.LIGHTalert{
+    font-size: 18px;
+    font-family: SpaceMono-Regular;
+    color: #4B6A9B;
+    border: none;
+    width:300px;
+}
+
+.DARKalert{
+    font-size: 18px;
+    font-family: SpaceMono-Regular;
+    color: white;
+    border: none;
+    width:300px;
+    background-color:#1E2A47;
+}
+
+@media screen and (max-width: 950px){
+    .LIGHTNODATA{
+        width: 90%;
+        height: 70%;
+    }
+    .DARKNODATA{
+        width: 90%;
+        height: 70%;
+    }
+}
+
+@media screen and (max-width:480px){
+    .LIGHTNODATA{
+        width: 96%;
+    }
+    .DARKNODATA{
+        width: 96%;
+    }
+}
