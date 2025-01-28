@@ -16,7 +16,7 @@ function App() {
     <div className={Theme+"maindiv"}>
       <Firstsection></Firstsection>
       <Searchsection></Searchsection>
-      { username==""? <div className={Theme+"NODATA"}><p className={Theme+"alert"}>Search Github username...</p></div>:
+      { username==" "? <div className={Theme+"NODATA"}><p className={Theme+"alert"}>Search Github username...</p></div>:
       <Mainsection></Mainsection>
 }
     </div>
