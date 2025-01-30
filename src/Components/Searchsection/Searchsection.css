@@ -60,13 +60,22 @@
     background-color:#1E2A47;
 }
 
+.DARKsearchtopic:focus{
+    outline:none;
+    border:none;
+}
+
 .LIGHTsearchtopic{
     font-size: 18px;
     font-family: SpaceMono-Regular;
     color: #4B6A9B;
     border: none;
     width:300px;
-    
+}
+
+.LIGHTsearchtopic:focus{
+    outline:none;
+    border:none;
 }
 
 #searchbtn{
